@@ -1,0 +1,11 @@
+@import url(buttons_styles.css);
+
+main {
+    margin-left: 220px; 
+    padding: 20px;
+    width: 800px;
+    margin-left: 300px;
+    width: 70%;
+    margin-right: 40px;
+}
+

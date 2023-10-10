@@ -1,0 +1,24 @@
+.button_menu { display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 10%; 
+    height: 100%; 
+    padding: 10px;
+    position: fixed;
+}
+
+button {
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    }
+
+button:hover {
+    background-color: beige;
+ }
+
