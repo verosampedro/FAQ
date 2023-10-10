@@ -46,6 +46,81 @@
 
     </article>
 
+
+    <article class="html_section">
+
+        <h2>Conceptos básicos de HTML</h2>
+
+        <p> <strong>El Lenguaje de Marcado de Hipertexto (HTML)</strong> es el código que se utiliza para <em>estructurar y desplegar una página web y sus contenidos</em>. 
+        Por ejemplo, sus contenidos podrían ser <strong>párrafos</strong>, una <strong>lista</strong> con viñetas, o <strong>imágenes</strong> y <strong>tablas de datos</strong>.</p>
+        <p>HTML no es un lenguaje de programación; es un <em>lenguaje de marcado</em> que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás 
+        para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o 
+        una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc.</p>
+        <p> <strong>Las partes principales del elemento son:</strong> </p>
+
+        <ul class="html_structure">
+
+            <li> <strong>La etiqueta de apertura:</strong> consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. 
+            Establece dónde comienza o empieza a tener efecto el elemento. </li> 
+            <li> <strong>La etiqueta de cierre:</strong> es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. 
+            Establece dónde termina el elemento.</li>
+            <li> <strong>El contenido:</strong> este es el contenido del elemento. </li>
+            <li> <strong>El elemento:</strong> la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.</li>
+
+        </ul>
+
+        <p>Los elementos pueden también tener atributos: los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en 
+        el contenido real del elemento.</p>
+        <p> <strong>Un atributo debe tener siempre:</strong> </p>
+
+        <ol class="html_attributes">
+
+            <li type="1">Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos).</li>
+            <li>El nombre del atributo, seguido por un signo de igual (=).</li>
+            <li>Comillas de apertura y de cierre, encerrando el valor del atributo.</li>
+
+        </ol>
+
+        <p>Los atributos siempre se incluyen en la etiqueta de apertura de un elemento, nunca en la de cierre.</p>
+
+        <p>Hasta ahora has visto lo básico de elementos HTML individuales, pero estos no son muy útiles por sí solos. 
+        Ahora verás cómo los elementos individuales son combinados para formar una página HTML entera.</p>
+
+        <ul class="html_anatomy">
+
+            <li> <strong>(!DOCTYPE html)</strong> — el tipo de documento. Es un preámbulo requerido. Anteriormente, los tipos de documento actuaban como vínculos a un conjunto 
+            de reglas que el código HTML de la página debía seguir para ser considerado bueno, lo que podía significar la verificación automática de errores y algunas otras cosas 
+            de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo que a nadie le importa, pero que debe ser incluido para que todo funcione correctamente.</li>
+
+            <li> <strong>(html)</strong> — Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element).</li>
+
+            <li> <strong>(head)</strong> — Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los 
+            visitantes de la página. Incluye cosas como palabras clave, una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar 
+            estilo al contenido, declaraciones del juego de caracteres, etc. </li>
+
+            <li> <strong>(meta)</strong> — Este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los 
+            idiomas humanos. Básicamente, puede manejar cualquier contenido de texto que puedas incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro.</li>
+
+            <li> <strong>(title)</strong> — Establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página 
+            es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita. </li>
+
+            <li> <strong>(body)</strong> — Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, 
+            pistas de audio reproducibles, y demás.</li>
+
+        </ul>
+
+        <p>Dentro de la anatomía y elementos básicos de HTML podríamos hablar también de:</p>
+
+        <p>Las imágenes que se incrustan a través del elemento (src 'source') y que van siempre al lado de un elemento (alt). El texto alt debe proporcionarle al lector la 
+        suficiente información como para que este tenga una buena idea de qué muestra la imagen.</p>
+        <p>Marcados de texto como por ejemplo: encabezados (h1), párrafos (p), listas ('ul' si son desordenadas y/o 'ol' si son ordenadas), vínculos o enlaces 
+        ( —son los que hacen de la web, la web—)...entre muchos otros.</p>
+
+        <p>Todo esto es a lo que podemos denominar, la superficie de HTML.</p>
+
+    </article>
+
+
     </main>
 </body>
 </html>
